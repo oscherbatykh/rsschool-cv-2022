@@ -4,6 +4,8 @@
 
 ##Olga Scherbatykh
 
+![photo] (d:\обучение\projects\2022\rsschool-cv\photo\2020-07-18-15-27-26_o.jpg "my photo")
+
 \*\*\ Contacts:\*\*
 
 Address: G.Koblov st. Mozyr, Belarus
