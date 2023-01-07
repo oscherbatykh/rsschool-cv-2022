@@ -1,0 +1,228 @@
+/* inter-regular - latin */
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("../fonts/inter-v12-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/inter-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #f5f5f5;
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1, 2;
+    font-weight: normal;
+    color: black;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.green-background {
+    padding: 0 110px;
+    background-color: #edf2ec;
+}
+
+.header_wrapper {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item {
+    margin: 0 21px;
+}
+
+.header_item:last-child {
+    margin-right: 0;
+}
+.header_item a {
+    color: #010201;
+}
+.header_item a:hover,
+.header_item a.active {
+    color: #e06733;
+}
+
+/* start main styles
+section welcome*/
+
+.main_wrapper_welcome {
+    display: flex;
+    background-color: #edf2ec;
+    align-items: center;
+    padding: 62px 110px;
+}
+.main_wrapper_image,
+.main_wrapper_text {
+    flex: 0 0 50%;
+}
+
+.welcome_title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+
+.welcome_title span {
+    color: #499a18;
+}
+
+.main_wrapper_text p {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 42px 0;
+}
+
+.main_wrapper_text button {
+    border: 2px solid #e06733;
+    border-radius: 10px;
+    padding: 14px 27px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background: transparent;
+}
+
+.main_wrapper_image img {
+    height: 100%;
+}
+
+.main_wrapper_text button:hover,
+.main_wrapper_text button:active {
+    color: white;
+    background: #e06733;
+}
+
+/*start section about*/
+
+.main_wrapper_about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 62px 110px;
+    background: white;
+}
+
+.main_wrapper_about_text,
+.main_wrapper_image {
+    flex: 0 0 50%;
+}
+
+.main_wrapper_about_image {
+    text-align: center;
+}
+
+.main_wrapper_about_image img {
+    height: 100%;
+}
+.main_wrapper_about .about_title {
+    color: #499a18;
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+}
+.main_wrapper_about .about_title span {
+    color: #e06733;
+}
+
+.main_wrapper_about_text p {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: left;
+    padding: 42px 0;
+}
+
+/*start section service*/
+
+.main_wrapper_service {
+    background-color: #edf2ec;
+    align-items: center;
+    padding: 62px 110px;
+}
+
+.main_service_projects {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.main_service_projects_text {
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499a18;
+    width: 33%;
+}
+
+.main_service_projects_list {
+    display: flex;
+    width: 67%;
+}
+
+.main_service_projects_list a {
+    font-size: 20px;
+    color: #e06733;
+    border: 1px solid #e06733;
+    border-radius: 5px;
+    padding: 12px 40px;
+    margin-right: 38px;
+}
+
+.main_service_projects_list a:hover,
+.main_service_projects_list a:active {
+    color: white;
+    background: #e06733;
+}
+
+.main_service_image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_service_image_item {
+    flex-flow: column;
+    flex: 0 0 28%;
+    margin-top: 55px;
+    border: 1px solid #e3e1d5;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.main_service_image_item img {
+    width: 100%;
+}
