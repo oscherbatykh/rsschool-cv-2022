@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+        <script src="index.js"></script>
         <title>We grow plants and give you oxygen</title>
     </head>
     <body>
@@ -24,23 +26,23 @@
                                 <a href="#" class="header_link active">Home</a>
                             </li>
                             <li class="header_item">
-                                <a href="#" class="header_link">About us</a>
+                                <a href="#about" class="header_link">About us</a>
                             </li>
                             <li class="header_item">
-                                <a href="#" class="header_link">Service</a>
+                                <a href="#service" class="header_link">Service</a>
                             </li>
                             <li class="header_item">
-                                <a href="#" class="header_link">Price</a>
+                                <a href="#prices" class="header_link">Price</a>
                             </li>
                             <li class="header_item">
-                                <a href="#" class="header_link">Contacts</a>
+                                <a href="#contacts" class="header_link">Contacts</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
             </header>
             <main>
-                <section class="welcome">
+                <section class="welcome" id="welcome">
                     <div class="main_wrapper_welcome">
                         <div class="main_wrapper_image">
                             <img src="img/leafs.png" alt="green leaf" />
@@ -52,7 +54,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="about">
+                <section class="about" id="about">
                     <div class="main_wrapper_about">
                         <div class="main_wrapper_about_text">
                             <h2 class="about_title">
@@ -67,24 +69,18 @@
                         </div>
                     </div>
                 </section>
-                <section class="service">
+                <section class="service" id="service">
                     <div class="main_wrapper_service">
                         <div class="main_service_projects">
                             <h2 class="main_service_projects_text">
                                 Service and our <br />
                                 projects
                             </h2>
-                            <ul class="main_service_projects_list">
-                                <li>
-                                    <a href="">Gardens</a>
-                                </li>
-                                <li>
-                                    <a href="">Lawn</a>
-                                </li>
-                                <li>
-                                    <a href="">Planting</a>
-                                </li>
-                            </ul>
+                            <div class="main_service_projects_list">
+                                <button>Gardens</button>
+                                <button>Gardens</button>
+                                <button>Gardens</button>
+                            </div>
                         </div>
                         <div class="main_service_image">
                             <div class="main_service_image_item">
@@ -120,7 +116,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="prices">
+                <section class="prices" id="prices">
                     <div class="main_wrapper_price">
                         <div class="main_price_projects">
                             <div class="main_price_projects_left">
@@ -152,9 +148,9 @@
                         </div>
                     </div>
                 </section>
-                <section class="contacts">
+                <section class="contacts" id="contacts">
                     <div class="main_wrapper_contacts">
-                        <h3>Contact us</h3>
+                        <h2>Contact us</h2>
                         <div class="main_contacts_projects">
                             <div class="main_contacts_projects_left">
                                 <img src="img/contact_woman1.png" alt="woman" />
@@ -185,12 +181,20 @@
                         <div class="footer_wrapper_center">
                             <a href="https://github.com/rolling-scopes-school/tasks/tree/master/stage0" target="_blank">Rolling-scopes-school</a>
                         </div>
-                        <div class="footer_wrapper_right">
-                            <a href="#"><img src="img/svg/inst.svg" alt="instagram" /></a>
-                            <a href="#"><img src="img/svg/facebook.svg" alt="facebook" /> </a>
-                            <a href="#"><img src="img/svg/twitter.svg" alt="twitter" /></a>
-                            <a href="#"><img src="img/svg/pinteres.svg" alt="pinteres" /> </a>
-                        </div>
+                        <ul class="footer_wrapper_right">
+                            <li>
+                                <a href="#"><img src="img/svg/inst.svg" alt="instagram" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/svg/facebook.svg" alt="facebook" /> </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/svg/twitter.svg" alt="twitter" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/svg/pinteres.svg" alt="pinteres" /> </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </footer>

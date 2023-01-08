@@ -8,6 +8,7 @@
 
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -191,7 +192,7 @@ section welcome*/
     width: 67%;
 }
 
-.main_service_projects_list a {
+.main_service_projects_list button {
     font-size: 20px;
     color: #e06733;
     border: 1px solid #e06733;
@@ -200,8 +201,8 @@ section welcome*/
     margin-right: 38px;
 }
 
-.main_service_projects_list a:hover,
-.main_service_projects_list a:active {
+.main_service_projects_list button:hover,
+.main_service_projects_list button:active {
     color: white;
     background: #e06733;
 }
@@ -335,7 +336,7 @@ section welcome*/
     justify-content: space-between;
 }
 
-.main_wrapper_contacts h3 {
+.main_wrapper_contacts h2 {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
@@ -384,9 +385,12 @@ section welcome*/
 }
 
 .footer_wrapper_left img,
-span,
-a {
+.footer_wrapper_left span,
+.footer_wrapper_left a {
     margin-left: 20px;
+}
+.footer_wrapper_right {
+    display: flex;
 }
 
 .footer_wrapper_right img {
