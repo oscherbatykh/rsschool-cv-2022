@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/select.css" />
         <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
-        <script src="index.js"></script>
+        <script defer src="index.js"></script>
         <title>We grow plants and give you oxygen</title>
     </head>
     <body>
@@ -21,6 +22,7 @@
                         </a>
                     </div>
                     <nav class="header_nav">
+                        <span class="mobile-main"> </span>
                         <ul class="header_list">
                             <li class="header_item">
                                 <a href="#" class="header_link active">Home</a>
@@ -78,8 +80,8 @@
                             </h2>
                             <div class="main_service_projects_list">
                                 <button>Gardens</button>
-                                <button>Gardens</button>
-                                <button>Gardens</button>
+                                <button>Lawn</button>
+                                <button>Planting</button>
                             </div>
                         </div>
                         <div class="main_service_image">
@@ -125,16 +127,43 @@
                                 </div>
                                 <div class="main_price_projects_left_form">
                                     <div class="prices_item">
-                                        <h4>Basics</h4>
-                                        <img src="img/accordion_btn.png" alt="circle" />
+                                        <div class="clickable">
+                                            <h4>Basics</h4>
+                                            <img class="open-price" src="img/accordion_btn.png" alt="circle" />
+                                        </div>
+                                        <div class="prices-inner">
+                                            <p class="prices-inner-description">Release of Letrasets containing Lorem Ipsum passages, and more recently</p>
+                                            <div class="prices-inner-rate">
+                                                <b><span>$</span>25</b> / per hour
+                                            </div>
+                                            <button>Order</button>
+                                        </div>
                                     </div>
                                     <div class="prices_item">
-                                        <h4>Standard</h4>
-                                        <img src="img/accordion_btn.png" alt="circle" />
+                                        <div class="clickable">
+                                            <h4>Standard</h4>
+                                            <img class="open-price" src="img/accordion_btn.png" alt="circle" />
+                                        </div>
+                                        <div class="prices-inner">
+                                            <p class="prices-inner-description">Release of Letrasets containing Lorem Ipsum passages, and more recently</p>
+                                            <div class="prices-inner-rate">
+                                                <b><span>$</span>25</b> / per hour
+                                            </div>
+                                            <button>Order</button>
+                                        </div>
                                     </div>
                                     <div class="prices_item">
-                                        <h4>Pro care</h4>
-                                        <img src="img/accordion_btn.png" alt="circle" />
+                                        <div class="clickable">
+                                            <h4>Pro care</h4>
+                                            <img class="open-price" src="img/accordion_btn.png" alt="circle" />
+                                        </div>
+                                        <div class="prices-inner">
+                                            <p class="prices-inner-description">Release of Letrasets containing Lorem Ipsum passages, and more recently</p>
+                                            <div class="prices-inner-rate">
+                                                <b><span>$</span>25</b> / per hour
+                                            </div>
+                                            <button>Order</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -155,14 +184,38 @@
                             <div class="main_contacts_projects_left">
                                 <img src="img/contact_woman1.png" alt="woman" />
                             </div>
-                            <div class="main_contacts_projects_right">
-                                <div class="main_contacts_projects_right_city">
-                                    <p>City</p>
-                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle cx="8" cy="8" r="8" fill="#AEA1A1" />
-                                        <path d="M8.00003 8.99997L6.00002 7.00008" stroke="white" stroke-width="0.5" stroke-linecap="round" />
-                                        <path d="M8 9L10 7" stroke="white" stroke-width="0.5" stroke-linecap="round" />
-                                    </svg>
+                            <div class="city-select">
+                                <div class="__select" data-state="">
+                                    <div class="__select__title" data-default="Option 0">City</div>
+                                    <div class="__select__content">
+                                        <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect1" checked />
+                                        <label for="singleSelect0" class="__select__label">City</label>
+                                        <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect2" />
+                                        <label for="singleSelect1" class="__select__label">Canadaigua, NY</label>
+                                        <input id="singleSelect2" class="__select__input" type="radio" name="singleSelect3" />
+                                        <label for="singleSelect2" class="__select__label">New Your City</label>
+                                        <input id="singleSelect3" class="__select__input" type="radio" name="singleSelect4" />
+                                        <label for="singleSelect3" class="__select__label">Yonkers, NY</label>
+                                        <input id="singleSelect4" class="__select__input" type="radio" name="singleSelect5" />
+                                        <label for="singleSelect4" class="__select__label">Sherrill, NY</label>
+                                    </div>
+                                </div>
+                                <div class="contact-card">
+                                    <table>
+                                        <tr>
+                                            <td>City:</td>
+                                            <td>Canadaigua, NY</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Phone:</td>
+                                            <td>+1 585 393 0001</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Office address:</td>
+                                            <td>151 Charlotte Street</td>
+                                        </tr>
+                                    </table>
+                                    <button>Call us</button>
                                 </div>
                             </div>
                         </div>
